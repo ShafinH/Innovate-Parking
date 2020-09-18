@@ -1,4 +1,5 @@
 
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -100,7 +101,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -131,7 +131,6 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   max-height: 40px;
 }
-
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -246,6 +245,31 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Get Startet Button */
+.get-started-btn {
+  margin-left: 25px;
+  color: #fff;
+  border-radius: 50px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+.get-started-btn:hover {
+  background: #31a9e1;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .get-started-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 20px 7px 20px;
+  }
+}
 
 /* Mobile Navigation */
 .mobile-nav-toggle {
@@ -354,11 +378,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-
 #hero {
   width: 100%;
   height: 80vh;
@@ -497,7 +519,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -550,8 +571,6 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
-
 
 /*--------------------------------------------------------------
 # About Us
@@ -709,8 +728,6 @@ section {
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
@@ -772,9 +789,44 @@ section {
   font-size: 14px;
 }
 
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+}
+
+.team .member .social a i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #47b2e4;
+}
+
+.team .member .social a:hover i {
+  color: #fff;
+}
+
+.team .member .social a + a {
+  margin-left: 8px;
+}
 
 /*--------------------------------------------------------------
-# FAQ
+# Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
   padding: 0 100px;
@@ -853,7 +905,6 @@ section {
     padding: 0;
   }
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -1046,10 +1097,6 @@ section {
 }
 
 
-
-
-
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1237,3 +1284,4 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
