@@ -65,18 +65,46 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
 		
-			<h2>...</h2>
+			<h2>Avaialble Parking Notifications</h2>
 			<p>Fill out the form below with your contact info and parking lot info so we can let you know when there is a space available for you!</p>
           
-            <form action="" method="post">
-            First Name: <input type="text" name="first_name"><br>
-            Last Name: <input type="text" name="last_name"><br>
-            Email: <input type="text" name="email"><br>
-            Parking Lot:<input type="text" name="lot"><br>
-            <input type="submit" name="submit" value="Submit">
-            </form> 
+          
 						
       </div>
+
+      <form action="" method="post">
+
+       <!-- First Name: <input type="text" name="first_name"><br>
+        Last Name: <input type="text" name="last_name"><br>
+        Email: <input type="text" name="email"><br>
+        Parking Lot:<input type="text" name="lot"><br>
+        <input type="submit" name="submit" value="Submit"> -->
+
+          <ul class="form-style-1">
+
+            <li><label>Full Name <span class="required">*</span></label>
+              <input type="text" name="first_name" class="field-divided" placeholder="First" /> 
+              <input type="text" name="last_name" class="field-divided" placeholder="Last" />
+            
+            </li>
+
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="email" name="email" class="field-long" placeholder="Email"/>
+            </li>
+
+            <li>
+                <label>Parking Lot Name<span class="required">*</span></label>
+                <input type="text" name="lot" class="field-long" placeholder="Ex: "></input>
+            </li>
+
+            <li>
+                <input class ="center" type="submit" name="submit" value="Submit" />
+            </li>
+        </ul>
+
+        </form> 
+
     </section>
     
 <!-- ======= Contact Section ======= -->
