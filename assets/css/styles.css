@@ -1,28 +1,28 @@
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "Open Sans", sans-serif;
-    color: #444444;
-  }
-  
-  a {
-    color: #47b2e4;
-  }
-  
-  a:hover {
-    color: #73c5eb;
-    text-decoration: none;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Jost", sans-serif;
-  }
-  
-  .center{
-      align-items: center;
-  }
-  
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #47b2e4;
+}
+
+a:hover {
+  color: #73c5eb;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+
+.center{
+    align-items: center;
+}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -69,9 +69,8 @@ body {
   100% {
     transform: rotate(360deg);
   }
-  
-  
-  
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -99,5 +98,4 @@ body {
 .back-to-top i:hover {
   background: #209dd8;
   color: #fff;
-}
 }
