@@ -215,7 +215,8 @@
               <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">How does the model work?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
                 <p>
-                  Our model first breaks down the individual parking spots of a parking lot. From here we distinguish filled spots
+                  Our model first breaks down the individual parking spots of a parking lot. From here we distinguish filled spots from non filled spots. After 
+                  we are able to recognize the difference, we highlight the open spots in green, editing the oringal photo or video.
                 </p>
               </div>
             </li>
@@ -312,6 +313,27 @@
 
 
   <script src="assets/js/main.js"></script>
+  
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCQMxNVgNla1E5ERFoMn_I4m5HO0fU6UaE",
+      authDomain: "innovate-parking.firebaseapp.com",
+      databaseURL: "https://innovate-parking.firebaseio.com",
+      projectId: "innovate-parking",
+      storageBucket: "innovate-parking.appspot.com",
+      messagingSenderId: "526017989645",
+      appId: "1:526017989645:web:7b759036cc975767c99944"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 
 </body>
 
