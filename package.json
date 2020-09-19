@@ -1,0 +1,24 @@
+{
+  "name": "parking-prediction",
+  "version": "1.0.0",
+  "description": "Predicting open parking spots with notifications for when they open.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShafinH/Parking-Prediction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShafinH/Parking-Prediction/issues"
+  },
+  "homepage": "https://github.com/ShafinH/Parking-Prediction#readme"
+}
