@@ -5,4 +5,7 @@ Devpost Submission: https://devpost.com/software/parking-prediction
 <br/>
 Website Link: https://innovate-parking.web.app
 <br/>
+Submitted to Aye Aye Hackers and HackJPS
+<br/> 
+Recieved First Overall at Aye Aye Hackers
 
