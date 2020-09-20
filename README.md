@@ -11,7 +11,4 @@ Website Link: https://innovate-parking.web.app
   <li><b>Waiting for HackJPS Awards</b></li>
 </ul>
 <br/>
-Submitted to Aye Aye Hackers and HackJPS
-<br/> 
-Recieved First Overall at Aye Aye Hackers
 
