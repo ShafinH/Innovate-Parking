@@ -6,4 +6,4 @@ Predicting open parking spots with notifications for when they open.
 <br/>
 Best data-usage project at HackJPS Awards</b>
 
-Devpost Submission: https://devpost.com/software/parking-prediction
+Learn More: https://devpost.com/software/parking-prediction
