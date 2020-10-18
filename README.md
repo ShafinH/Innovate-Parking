@@ -4,6 +4,6 @@ Predicting open parking spots with notifications for when they open.
 <br/>
 <b>Won First Overall at MLH 2021 Season AAH
 <br/>
-Best data-usage project at HackJPS Awards</b>
+Best data-usage project at HackJPS</b>
 
 Learn More: https://devpost.com/software/parking-prediction
